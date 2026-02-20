@@ -19,17 +19,17 @@ This project is a simple simulation of an ATM machine built in **Java** to demon
 - **Secure Data Handling:** Account PINs are private, and operations validate inputs to prevent invalid actions.  
 
 ## Project Structure
-src/
-├── Main.java
-│   └─ Entry point for the program
-├── Account.java
-│   └─ Stores individual account information and manages transactions
-├── Bank.java
-│   └─ Manages multiple accounts using HashMap
-├── Machine.java
-│   └─ ATM machine logic: card insertion, authentication, menu navigation
-└── UserValidator.java
-    └─ Static methods for input validation
+- src/
+- ├── Main.java
+  - │   └─ Entry point for the program
+- ├── Account.java
+  -    └─ Stores individual account information and manages transactions
+- ├── Bank.java
+  - │   └─ Manages multiple accounts using HashMap
+- ├── Machine.java
+  - │   └─ ATM machine logic: card insertion, authentication, menu navigation
+- └── UserValidator.java
+    - └─ Static methods for input validation
 
 ## How to Run
 1. **Compile all `.java` files:**
