@@ -6,6 +6,11 @@ public class Account {
     private double balance;
 
     public Account(String name, String accountNumber, String password, double balance) {
+        UserValidator.validateName(name);
+        UserValidator.validateAccountNumber(accountNumber);
+        UserValidator.validatePassword(password);
+        UserValidator.validateBalance(balance);
+
         this.name = name;
         this.accountNumber = accountNumber;
         this.password = password;
