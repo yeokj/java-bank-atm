@@ -33,18 +33,22 @@ public class Account {
         return this.password.equals(password);
     }
 
-    public void deposit(double amount) {
-        if (amount > 0) {
-            this.balance += amount;
+    public boolean deposit(double amount) {
+        if (amount <= 0) {
+            return false;
         }
+        this.balance += amount;
+        return true;
     }
 
-    public void withdraw(double amount) {
-        if (amount > 0 && this.balance >= amount) {
-            this.balance -= amount;
+    public boolean withdraw(double amount) {
+        if (amount <= 0) {
+            return false;
         }
-        else  {
-            throw new IllegalArgumentException("Insufficient funds");
+        if (amount > this.balance) {
+            return false;
         }
+        this.balance -= amount;
+        return true;
     }
 }
