@@ -1,7 +1,7 @@
 # Java ATM Simulation
 
 **Author:** Kyame Israel  
-**Course:** CS 391 (Object-Oriented Programming) 
+**Course:** CS 391 Object-Oriented Programming 
 **Date:** February 2026  
 
 ## Overview
