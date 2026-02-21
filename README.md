@@ -2,7 +2,6 @@
 
 **Author:** Kyame Israel  
 **Course:** CS 391 Object-Oriented Programming
-**Date:** February 2026  
 
 ## Overview
 This project is a simple simulation of an ATM machine built in **Java** to demonstrate **object-oriented programming principles** such as classes, methods, encapsulation, and data validation. Users can interact with the ATM to deposit, withdraw, check balance, and exit securely with PIN authentication.  
